@@ -69,7 +69,6 @@ if __name__ == '__main__':
         for bike in showroom:
             if b.model == bike.model:
                 bike.units -= 1
-
     """    
     After each customer has purchased their bike, the script should print out the bicycle shop's 
     remaining inventory for each bike, and how much profit they have made selling the three bikes.
@@ -77,5 +76,4 @@ if __name__ == '__main__':
     print("\nHere is the updated inventory:")
     for bike in showroom:
         print(bike.model, bike.units)
-        
-    print("\nThe total profit generated from these sales is")
+
